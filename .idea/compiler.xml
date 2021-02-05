@@ -6,11 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="apigateway" />
+        <module name="application1" />
+        <module name="nacosmicroservice" />
         <module name="quickstart-consumer" />
         <module name="quickstart-provider" />
         <module name="quickstartconsumer" />
         <module name="quickstartprovider" />
+        <module name="service-1-api" />
+        <module name="service-1-server" />
+        <module name="service-2-api" />
+        <module name="service-2-server" />
+        <module name="service1" />
+        <module name="service2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="service1api" target="1.5" />
+      <module name="service1server" target="1.5" />
+      <module name="service2api" target="1.5" />
+      <module name="service2server" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

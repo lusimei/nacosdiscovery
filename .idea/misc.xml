@@ -7,6 +7,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/quickstartconsumer/pom.xml" />
         <option value="$PROJECT_DIR$/quickstartprovider/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosmicroservice/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosmicroservice/application1/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosmicroservice/service1/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosmicroservice/service2/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosmicroservice/apigateway/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosmicroservice/service1/service-1-server/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosmicroservice/service2/service-2-api/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosmicroservice/service2/service-2-server/pom.xml" />
+        <option value="$PROJECT_DIR$/nacosmicroservice/service1/service-1-api/pom.xml" />
       </list>
     </option>
   </component>

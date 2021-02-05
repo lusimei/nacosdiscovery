@@ -2,19 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16882260-9788-408e-84e9-6b0a82898aa2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/apigateway/apigateway.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/apigateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/application1/application1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/application1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/nacosmicroservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service1/service-1-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service1/service-1-api/service1api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service1/service-1-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service1/service-1-server/service-1-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service1/service1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service2/service-2-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service2/service-2-api/service-2-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service2/service-2-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service2/service-2-server/service-2-server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacosmicroservice/service2/service2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstartconsumer/src/main/java/com/itheima/nacos/client/ProviderClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstartconsumer/src/main/java/com/itheima/nacos/client/ProviderClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstartconsumer/src/main/java/com/itheima/nacos/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstartconsumer/src/main/java/com/itheima/nacos/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstartconsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quickstartconsumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstartprovider/src/main/java/com/itheima/nacos/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstartprovider/src/main/java/com/itheima/nacos/controller/ProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstartprovider/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/quickstartprovider/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/quickstartprovider/target/" />
     <ignored path="$PROJECT_DIR$/quickstartconsumer/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/application1/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service1/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service2/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/apigateway/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service1api/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service2api/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service1server/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service2server/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service1/service-1-api/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service1/service-1-server/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service1/service-2-api/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service1/service-2-server/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service2/service-2-api/target/" />
+    <ignored path="$PROJECT_DIR$/nacosmicroservice/service2/service-2-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,22 +52,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/quickstartprovider/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacosmicroservice/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="140">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quickstartconsumer/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/nacosmicroservice/application1/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacosmicroservice/service2/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacosmicroservice/apigateway/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="120">
+              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1/service-1-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1/service-1-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacosmicroservice/service2/service-2-api/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nacosmicroservice/service2/service-2-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -186,221 +254,19 @@
             <path>
               <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
               <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="nacosmicroservice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
               <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nacosmicroservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
               <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="itheima" type="462c0819:PsiDirectoryNode" />
-              <item name="nacos" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nacosdiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="quickstartprovider" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-openfeign-core-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-openfeign-core-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-openfeign-core-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-openfeign-core-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nacosdiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework.cloud:spring-cloud-openfeign-core:2.1.0.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-cloud-openfeign-core-2.1.0.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="openfeign" type="462c0819:PsiDirectoryNode" />
+              <item name="nacosmicroservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -416,8 +282,8 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612518336313" />
-    <property name="last_opened_file_path" value="$USER_HOME$/dev/chilin_eldser_pcw_web" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612521392612" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacosmicroservice/service1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -535,16 +401,23 @@
       <updated>1612359017702</updated>
       <workItem from="1612359020816" duration="1591000" />
       <workItem from="1612360635272" duration="4811000" />
-      <workItem from="1612409152536" duration="7804000" />
+      <workItem from="1612409152536" duration="10521000" />
     </task>
+    <task id="LOCAL-00001" summary="完结">
+      <created>1612518389596</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612518389596</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14206000" />
+    <option name="totallyTimeSpent" value="16923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25510767" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -618,6 +491,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完结" />
+    <option name="LAST_COMMIT_MESSAGE" value="完结" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/quickstartconsumer/pom.xml">
@@ -698,6 +575,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quickstartprovider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/quickstartconsumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -705,12 +589,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quickstartprovider/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="140">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/application1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service2api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service2server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/apigateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1/service-1-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1/service-2-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1/service-2-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service1/service-1-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service2/service-2-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacosmicroservice/service2/service-2-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -729,7 +663,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -752,7 +686,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -764,12 +698,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>quickstartprovider</last-edited>
+          <last-edited>service-2-server</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -789,6 +722,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
