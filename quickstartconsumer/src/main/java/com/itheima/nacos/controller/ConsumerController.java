@@ -11,7 +11,7 @@ public class ConsumerController {
     @Autowired
     private ProviderClient providerClient;
 
-    @GetMapping("service")
+    @GetMapping("/service")
     public String service(){
         String providerResult = providerClient.service();
         return "consumer invoke |" + providerResult;

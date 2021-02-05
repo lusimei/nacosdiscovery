@@ -1,5 +1,5 @@
 server:
-  port: 56010
+  port: ${port:56010} #启动端口（动态）
 
 spring:
   application:
@@ -8,6 +8,8 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+        namespace: 518e02a6-d1a1-4227-81e7-590a0043fa40
+        cluster-name: DEFAULT
 
 logging:
   level:

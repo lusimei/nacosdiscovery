@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="quickstart-consumer" />
+        <module name="quickstart-provider" />
         <module name="quickstartconsumer" />
         <module name="quickstartprovider" />
       </profile>

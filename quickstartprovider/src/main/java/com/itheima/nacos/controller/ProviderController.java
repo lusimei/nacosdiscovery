@@ -12,6 +12,7 @@ public class ProviderController {
 
     @GetMapping("/service")
     public String service(){
+        LOG.info("我说呢 这操蛋");
         return "provider invoke";
     }
 }
